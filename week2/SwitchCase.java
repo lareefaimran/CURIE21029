@@ -7,15 +7,15 @@ public class SwitchCase {
 		
 		switch(tech) {
 		
-			case 0:{
+			case 1:{
 				System.out.println("Java");
 				break;
 			}
-			case 1:{
+			case 2:{
 				System.out.println("ES6");
 				break;
 			}
-			case 2:{
+			default:{
 				System.out.println("Not listed..");
 				break;
 			}
